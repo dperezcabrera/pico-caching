@@ -1,4 +1,4 @@
-# pico-cache
+# pico-caching
 
 Declarative caching (@cacheable) for pico-ioc components with pluggable backends.
 
@@ -7,14 +7,14 @@ Declarative caching (@cacheable) for pico-ioc components with pluggable backends
 ```bash
 pip install -e ".[dev]"
 pytest tests/ -v
-pytest --cov=pico_cache --cov-report=term-missing tests/
+pytest --cov=pico_caching --cov-report=term-missing tests/
 mkdocs serve -f mkdocs.yml
 ```
 
 ## Project Structure
 
 ```
-src/pico_cache/
+src/pico_caching/
   __init__.py     # Public API
   decorators.py   # @cacheable (policy on fn + intercepted_by)
   interceptor.py  # CacheInterceptor (get-or-compute)

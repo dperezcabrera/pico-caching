@@ -1,4 +1,4 @@
-# pico-cache
+# pico-caching
 
 Part of an ecosystem [built for the AI era](https://dperezcabrera.github.io/pico-ioc/ai-ready/):
 machine-readable conventions in every repo, installable
@@ -14,7 +14,7 @@ TTL. Auto-discovered by pico-boot; zero-config.
 
 ```python
 from pico_ioc import component
-from pico_cache import cacheable
+from pico_caching import cacheable
 
 @component
 class UserRepo:

@@ -1,10 +1,10 @@
-# Contributing to pico-cache
+# Contributing to pico-caching
 
 ## Development setup
 
 ```bash
-git clone https://github.com/dperezcabrera/pico-cache.git
-cd pico-cache
+git clone https://github.com/dperezcabrera/pico-caching.git
+cd pico-caching
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 ```
@@ -13,7 +13,7 @@ pip install -e ".[dev]"
 
 ```bash
 pytest tests/ -v
-pytest --cov=pico_cache --cov-report=term-missing tests/
+pytest --cov=pico_caching --cov-report=term-missing tests/
 tox
 ```
 

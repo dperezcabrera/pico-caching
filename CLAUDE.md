@@ -2,7 +2,7 @@ Read and follow ./AGENTS.md for project conventions.
 
 ## Pico Ecosystem Context
 
-pico-cache provides `@cacheable` via pico-ioc `MethodInterceptor` with a pluggable `CacheBackend` protocol (built-in thread-safe in-memory LRU + TTL). Same decorator idiom as pico-pydantic. Auto-discovered via `pico_boot.modules` entry point. Config prefix `cache` (zero-config).
+pico-caching provides `@cacheable` via pico-ioc `MethodInterceptor` with a pluggable `CacheBackend` protocol (built-in thread-safe in-memory LRU + TTL). Same decorator idiom as pico-pydantic. Auto-discovered via `pico_boot.modules` entry point. Config prefix `cache` (zero-config).
 
 ## Key Reminders
 

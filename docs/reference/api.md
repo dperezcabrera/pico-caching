@@ -1,9 +1,9 @@
 # API
 
-::: pico_cache.decorators
+::: pico_caching.decorators
 
-::: pico_cache.interceptor
+::: pico_caching.interceptor
 
-::: pico_cache.backend
+::: pico_caching.backend
 
-::: pico_cache.config
+::: pico_caching.config

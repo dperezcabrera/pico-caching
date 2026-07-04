@@ -4,7 +4,7 @@ import time
 
 from pico_ioc import component
 
-from pico_cache import CacheSettings, InMemoryCacheBackend, cacheable
+from pico_caching import CacheSettings, InMemoryCacheBackend, cacheable
 
 
 @component

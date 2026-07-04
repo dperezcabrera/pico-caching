@@ -1,4 +1,4 @@
-"""pico-cache: declarative caching for the Pico ecosystem.
+"""pico-caching: declarative caching for the Pico ecosystem.
 
 ``@cacheable`` over pico-ioc method interception, with a pluggable
 ``CacheBackend`` protocol and a built-in thread-safe in-memory LRU with TTL.

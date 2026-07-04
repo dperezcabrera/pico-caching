@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-pip install pico-cache
+pip install pico-caching
 ```
 
 ## Basic usage

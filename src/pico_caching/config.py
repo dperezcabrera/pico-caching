@@ -1,4 +1,4 @@
-"""Settings for pico-cache (prefix ``cache``, zero-config)."""
+"""Settings for pico-caching (prefix ``cache``, zero-config)."""
 
 from dataclasses import dataclass
 

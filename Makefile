@@ -1,10 +1,10 @@
 VERSIONS = 3.11 3.12 3.13 3.14
 
 build-%:
-	docker build --build-arg PYTHON_VERSION=$* -t pico-cache-test:$* -f Dockerfile.test .
+	docker build --build-arg PYTHON_VERSION=$* -t pico-caching-test:$* -f Dockerfile.test .
 
 test-%: build-%
-	docker run --rm pico-cache-test:$*
+	docker run --rm pico-caching-test:$*
 
 test-all: $(addprefix test-,$(VERSIONS))
 

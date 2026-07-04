@@ -1,16 +1,16 @@
 [run]
 branch = True
 source =
-    pico_cache
+    pico_caching
 omit =
     */_version.py
 
 [paths]
-pico_cache =
-    src/pico_cache
-    .tox/*/lib/*/site-packages/pico_cache
-    .tox/*/site-packages/pico_cache
-    */site-packages/pico_cache
+pico_caching =
+    src/pico_caching
+    .tox/*/lib/*/site-packages/pico_caching
+    .tox/*/site-packages/pico_caching
+    */site-packages/pico_caching
 
 [report]
 show_missing = True

@@ -1,6 +1,6 @@
 # Learning Roadmap
 
-1. **Install** — `pip install pico-cache`
+1. **Install** — `pip install pico-caching`
    ([Getting Started](getting-started.md)).
 2. **First hit** — `@cacheable` on an expensive lookup; verify with a call
    counter that the second call is free.

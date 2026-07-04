@@ -17,5 +17,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `CacheSettings` (prefix `cache`): `enabled`, `default_ttl_seconds`, `max_entries`.
 - Auto-discovery through the `pico_boot.modules` entry point; zero-config.
 
-[Unreleased]: https://github.com/dperezcabrera/pico-cache/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/dperezcabrera/pico-cache/releases/tag/v0.1.0
+[Unreleased]: https://github.com/dperezcabrera/pico-caching/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/dperezcabrera/pico-caching/releases/tag/v0.1.0

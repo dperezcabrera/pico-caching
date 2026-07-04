@@ -1,9 +1,9 @@
-site_name: pico-cache Documentation
+site_name: pico-caching Documentation
 site_description: "Declarative caching for the Pico ecosystem: @cacheable AOP with pluggable backends."
-site_url: https://dperezcabrera.github.io/pico-cache/
+site_url: https://dperezcabrera.github.io/pico-caching/
 
-repo_name: dperezcabrera/pico-cache
-repo_url: https://github.com/dperezcabrera/pico-cache
+repo_name: dperezcabrera/pico-caching
+repo_url: https://github.com/dperezcabrera/pico-caching
 edit_uri: edit/main/docs/
 copyright: Copyright 2025-2026
 

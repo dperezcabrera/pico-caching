@@ -2,7 +2,7 @@
 
 from typing import Any, Callable
 
-CACHE_META = "_pico_cache_meta"
+CACHE_META = "_pico_caching_meta"
 
 
 def cacheable(

@@ -8,7 +8,7 @@ def make_container():
 
     def _make(module, **cache_cfg):
         cfg = configuration(DictSource({"cache": cache_cfg}))
-        c = init(modules=["pico_cache", module], config=cfg)
+        c = init(modules=["pico_caching", module], config=cfg)
         created.append(c)
         return c
 
