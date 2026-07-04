@@ -19,16 +19,16 @@ src/pico_caching/
   decorators.py   # @cacheable (policy on fn + intercepted_by)
   interceptor.py  # CacheInterceptor (get-or-compute)
   backend.py      # CacheBackend protocol + InMemoryCacheBackend (LRU + TTL)
-  config.py       # CacheSettings (prefix "cache")
+  config.py       # CacheSettings (prefix "caching")
 ```
 
 ## Key Concepts
 
 - Default key: module.Class.method(args;kwargs) repr; override with `key=callable`.
-- TTL: per-decorator `ttl_seconds` overrides `cache.default_ttl_seconds`.
+- TTL: per-decorator `ttl_seconds` overrides `caching.default_ttl_seconds`.
 - Backend selection: first non-builtin `CacheBackend` component wins, else built-in LRU.
 - Async caches the awaited result; `time.monotonic` for expiry; one lock, OrderedDict LRU.
-- `cache.enabled: false` -> pass-through.
+- `caching.enabled: false` -> pass-through.
 
 ## Boundaries
 

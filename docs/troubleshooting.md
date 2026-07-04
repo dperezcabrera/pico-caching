@@ -10,12 +10,12 @@
 
 ## Hits happen but data is stale
 
-TTL. Lower `ttl_seconds` on the decorator or `cache.default_ttl_seconds`,
+TTL. Lower `ttl_seconds` on the decorator or `caching.default_ttl_seconds`,
 or invalidate: inject your backend and `delete(key)` / `clear()`.
 
 ## Entries disappear before their TTL
 
-LRU eviction: `cache.max_entries` (default 1024) bounds the built-in
+LRU eviction: `caching.max_entries` (default 1024) bounds the built-in
 backend. Raise it or shard hot methods to a custom backend.
 
 ## Combining with @retryable

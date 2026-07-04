@@ -1,11 +1,11 @@
-"""Settings for pico-caching (prefix ``cache``, zero-config)."""
+"""Settings for pico-caching (prefix ``caching``, zero-config)."""
 
 from dataclasses import dataclass
 
 from pico_ioc import configured
 
 
-@configured(target="self", prefix="cache", mapping="tree")
+@configured(target="self", prefix="caching", mapping="tree")
 @dataclass
 class CacheSettings:
     """``enabled: false`` makes ``@cacheable`` a pass-through."""

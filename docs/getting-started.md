@@ -9,7 +9,7 @@ pip install pico-caching
 ## Basic usage
 
 ```python
-@cacheable                       # default TTL (cache.default_ttl_seconds)
+@cacheable                       # default TTL (caching.default_ttl_seconds)
 def find(self, user_id): ...
 
 @cacheable(ttl_seconds=5)        # per-method TTL
@@ -26,7 +26,7 @@ every argument — same args, same entry.
 ## Settings
 
 ```yaml
-cache:
+caching:
   enabled: true
   default_ttl_seconds: 300
   max_entries: 1024      # built-in LRU eviction bound

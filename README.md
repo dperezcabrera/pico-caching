@@ -35,11 +35,11 @@ class UserRepo:
     def search(self, q: str): ...
 ```
 
-Sync and async (the awaited **result** is cached, never the coroutine). Default backend: thread-safe in-memory LRU with per-entry TTL (`cache.max_entries`, `cache.default_ttl_seconds`). Bring your own backend by implementing the `CacheBackend` protocol as a `@component` — it replaces the built-in automatically.
+Sync and async (the awaited **result** is cached, never the coroutine). Default backend: thread-safe in-memory LRU with per-entry TTL (`caching.max_entries`, `caching.default_ttl_seconds`). Bring your own backend by implementing the `CacheBackend` protocol as a `@component` — it replaces the built-in automatically.
 
 ```yaml
 # application.yaml (optional)
-cache:
+caching:
   default_ttl_seconds: 300
   max_entries: 1024
 ```

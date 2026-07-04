@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-07-04
+
+### Changed
+
+- Config prefix renamed from `cache` to `caching`, keeping the ecosystem rule
+  (prefix = package name suffix). A `cache:` block is no longer read — rename
+  it to `caching:`. Breaking only for configs written against 0.1.0.
+
 ## [0.1.0] - 2026-07-03
 
 ### Added
@@ -17,5 +25,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `CacheSettings` (prefix `cache`): `enabled`, `default_ttl_seconds`, `max_entries`.
 - Auto-discovery through the `pico_boot.modules` entry point; zero-config.
 
-[Unreleased]: https://github.com/dperezcabrera/pico-caching/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/dperezcabrera/pico-caching/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/dperezcabrera/pico-caching/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/dperezcabrera/pico-caching/releases/tag/v0.1.0
