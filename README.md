@@ -1,4 +1,4 @@
-# 📦 pico-caching
+# pico-caching
 
 [![PyPI](https://img.shields.io/pypi/v/pico-caching.svg)](https://pypi.org/project/pico-caching/)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/dperezcabrera/pico-caching)
