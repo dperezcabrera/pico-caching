@@ -1,0 +1,23 @@
+# pico-caching
+
+> Declarative caching for the Pico ecosystem: @cacheable AOP with pluggable backends.
+
+## Docs
+
+- [Home](https://dperezcabrera.github.io/pico-caching/)
+- [Getting Started](https://dperezcabrera.github.io/pico-caching/getting-started/)
+- [Learning Roadmap](https://dperezcabrera.github.io/pico-caching/LEARN/)
+- [Architecture](https://dperezcabrera.github.io/pico-caching/architecture/)
+- [index](https://dperezcabrera.github.io/pico-caching/reference/)
+- [API](https://dperezcabrera.github.io/pico-caching/reference/api/)
+- [AI Coding Skills](https://dperezcabrera.github.io/pico-caching/skills/)
+- [FAQ](https://dperezcabrera.github.io/pico-caching/faq/)
+- [Troubleshooting](https://dperezcabrera.github.io/pico-caching/troubleshooting/)
+- [Changelog](https://dperezcabrera.github.io/pico-caching/CHANGELOG/)
+
+## For agents
+
+- [Full docs in one file](https://dperezcabrera.github.io/pico-caching/llms-full.txt)
+- [AGENTS.md (conventions and boundaries)](https://raw.githubusercontent.com/dperezcabrera/pico-caching/main/AGENTS.md)
+- [Flagship use case (whole ecosystem wired)](https://dperezcabrera.github.io/pico-boot/flagship/)
+- [PyPI](https://pypi.org/project/pico-caching/)
