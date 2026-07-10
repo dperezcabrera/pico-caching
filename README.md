@@ -50,6 +50,16 @@ Skipped for now: `@cache_evict` and a Redis backend — planned once real usage 
 
 Full docs at **[dperezcabrera.github.io/pico-caching](https://dperezcabrera.github.io/pico-caching/)**.
 
+## AI Coding Skills
+
+Install [Claude Code](https://code.claude.com) or [OpenAI Codex](https://openai.com/index/introducing-codex/) skills for AI-assisted development with pico-caching:
+
+```bash
+curl -sL https://raw.githubusercontent.com/dperezcabrera/pico-skills/main/install.sh | bash
+```
+
+The `pico-conventions` skill teaches the assistant this module's API surface and invariants; `/add-component` and `/add-tests` scaffold components and tests that use it.
+
 ## License
 
 MIT
