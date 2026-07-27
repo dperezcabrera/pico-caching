@@ -1,0 +1,39 @@
+# pico-caching
+
+> Declarative caching for the Pico ecosystem: @cacheable AOP with pluggable backends.
+
+Install: `pip install pico-caching`. Import surface: `from pico_caching import ...`.
+
+## Usage
+
+```python
+from pico_ioc import component
+from pico_caching import cacheable
+
+@component
+class UserRepo:
+    @cacheable(ttl_seconds=60)
+    async def find(self, user_id: int): ...
+
+    @cacheable(key=lambda q: f"search:{q}")
+    def search(self, q: str): ...
+```
+
+## Public API
+
+- `cacheable(_func: Callable | None=None, *, ttl_seconds: float | None=None, key: Callable[..., str] | None=None)` — Cache the method's return value. Sync or async; async methods cache
+- `class CacheBackend(Protocol)` — Implement as a ``@component`` to replace the in-memory backend.
+- `class InMemoryCacheBackend` — Thread-safe LRU with per-entry TTL (``time.monotonic`` based).
+- `class CacheSettings` — ``enabled: false`` makes ``@cacheable`` a pass-through.
+- `class CacheInterceptor` — Uses the first user-provided ``CacheBackend``; falls back to the
+
+## Docs
+
+- docs/CHANGELOG.md
+- docs/LEARN.md
+- docs/architecture.md
+- docs/faq.md
+- docs/getting-started.md
+- docs/reference/ (2 pages)
+- docs/skills.md
+- docs/troubleshooting.md
