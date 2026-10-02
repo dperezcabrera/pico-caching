@@ -1,7 +1,7 @@
 # pico-caching
 
 [![PyPI](https://img.shields.io/pypi/v/pico-caching.svg)](https://pypi.org/project/pico-caching/)
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/dperezcabrera/pico-caching)
+[![Ask DeepWiki](https://img.shields.io/badge/Ask-DeepWiki-blue)](https://deepwiki.com/dperezcabrera/pico-caching)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![CI (tox matrix)](https://github.com/dperezcabrera/pico-caching/actions/workflows/ci.yml/badge.svg)
 [![codecov](https://codecov.io/gh/dperezcabrera/pico-caching/branch/main/graph/badge.svg)](https://codecov.io/gh/dperezcabrera/pico-caching)
